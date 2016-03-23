@@ -1,0 +1,747 @@
+
+/* Source CSS Website Alwan najah 12.8.2013 Developer Iehab Kahwati */
+
+/*
+
+HTML5 CSS Reset
+Based on Eric Meyer's CSS Reset
+and html5doctor.com HTML5 Reset
+
+Copyright (c) 2011 736 Computing Services Limited
+Released under the MIT license. http://opensource.736cs.com/licenses/mit
+
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, audio, canvas, details, figcaption,
+figure, footer, header, hgroup, mark, menu, meter, nav,
+output, progress, section, summary, time, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	
+}
+
+body {
+	line-height: 1;
+}
+
+article, aside, dialog, figure, footer, header, 
+hgroup, nav, section, blockquote { 
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+ul ul {
+	list-style: circle;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+mark {
+	background: none;
+}
+
+abbr[title], dfn[title] {
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;	
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+
+
+input, select, a img {
+	vertical-align: middle;
+}
+a {
+text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------- */
+@media screen and (min-width:960px) {
+#spiders {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    max-width:100%;
+    z-index: 0;
+        display: inline-block;
+    vertical-align: baseline;
+}
+
+@font-face
+{
+font-family: Casper_Bold;
+src: url('../font/Casper_Bold.ttf'),
+     url('../font/GESS/GESS.eot'); /* IE9 */
+} 
+
+body{
+	transition:all 1s;
+	 -webkit-animation: wentrance 1s;
+ animation: wentrance 1s;
+}
+@-webkit-keyframes wentrance {
+ 0% {opacity: 0;}
+ 100% { opacity: 1;}
+}
+
+@keyframes wentrance {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+.Center{width: 960px;margin: auto;}
+
+.Header{
+	height: 620px;
+	background: #09b349;
+	z-index: 55;
+}
+
+.logo{
+padding-top: 40px;
+}
+.logo img{
+	width: 328px;
+    height: 105px;
+}
+
+.image_me  {
+	text-align: center;
+	margin-top: 27px;
+}
+
+.text_Ehab h1{
+font-family: Casper_Bold;
+text-align: center;
+font-size: 72px;
+color: #fff;
+margin-top: 60px;
+}
+
+.DOWN_ARROW{
+	text-align: center;
+	margin-top: 50px;
+    animation: DOWN_ARROW 0.5s linear 0.2s infinite alternate;
+}
+.DOWN_ARROW img {
+	cursor: pointer;
+	
+}
+@-webkit-keyframes DOWN_ARROW {
+    from {margin-top: 44px;}
+    to {margin-top: 55px;}
+}
+
+/* Standard syntax */
+@keyframes DOWN_ARROW {
+    from {margin-top: 44px;}
+    to {margin-top: 55px;}
+}
+
+.Abuot{
+	height: 300px;
+	background: #fff;
+}
+.Abuot .adress h1{
+font-family: Casper_Bold;
+text-align: center;
+font-size: 36px;
+color: #09b349;
+padding-top: 55px;
+}
+.Abuot .text p{
+font-family: 'Tahoma';
+text-align: center;
+font-size: 14px;
+color: #5a5a5a;
+margin-top: 55px;
+line-height: 22px;
+}
+.Expert_in {
+	height: 530px;
+	background: #f1f8ff;
+
+}
+.Expert_in .Address h1{
+	font-family: Casper_Bold;
+text-align: center;
+font-size: 36px;
+color: #09b349;
+padding-top: 55px;
+}
+
+.Expert_in .con{
+	opacity:0;
+margin-top: 98px;
+transition:all 1s;
+}
+
+.Expert_in .con .col_3{
+
+	display: inline-table;
+	width: 317px;
+	text-align: center;
+}
+.Expert_in .con .col_3 h2{
+font-family: Casper_Bold;
+font-size: 18px;
+color: #09b349;
+padding-top: 20px;
+}
+.Expert_in .con .col_3 p{
+font-family: 'Tahoma';
+text-align: center;
+font-size: 12px;
+color: #5a5a5a;
+margin-top: 20px;
+line-height: 18px;
+}
+.Latest_Works {
+background: #fff;
+height: 640px;
+}
+.Latest_Works .address h2{
+	font-family: Casper_Bold;
+	text-align: center;
+font-size: 36px;
+color: #09b349;
+padding-top: 45px;
+}
+.Latest_Works .row_1{
+	
+	margin-top: 10px;
+}
+#effect2{
+	transition:all 1s;
+	opacity:0;
+}
+#effect3{
+	    padding-top: 25px;
+	transition:all 1s;
+	opacity:0;
+}
+.Latest_Works .row_1 .col_3{
+	display: inline-table;
+	width: 317px;
+	text-align: center;
+
+}
+.Latest_Works .row_1 .col_3 a{
+	text-decoration: none;
+	overflow: hidden;
+	color: #09b349;
+
+}
+
+.Latest_Works .row_1 .col_3 h2{
+padding-top: 20px;
+line-height: 28px;
+}
+.Latest_Works .row_1 .col_3 .select{
+    transition:all 0.5s ease-in;
+    width: 180px;
+	text-align: center;
+	margin:auto;
+	padding-top: 18px;
+	padding-bottom: 18px;
+    background: #fff;
+    font-family: Casper_Bold;
+	cursor: pointer;
+    font-size: 26px;
+    color: #09b349;
+    padding-top: 20px;
+
+}
+.Latest_Works .row_1 .col_3 .select:hover{
+	color: #fff;
+background: #09b349;
+
+
+}
+
+.Contact_H {
+height: 420px;
+background: #474d5d;
+}
+.Contact_H .col_2{
+	width: 490px;
+	display: inline-table;
+}
+
+.Contact_H .col_2 .Address h2{
+font-family: Casper_Bold;
+font-size: 30px;
+color: #FFF;
+padding-top: 70px;
+padding-bottom: 45px;
+}
+
+.Contact_H .con_cont .colm_2_1{
+	display: inline-block;
+}
+.Contact_H .con_cont .row_3_1{
+	padding-bottom: 12px;
+}
+.Contact_H .con_cont .row_3_1 h3{
+	font-family: 'Tahoma';
+font-size: 17px;
+color: #FFF;
+margin-left: 18px;
+vertical-align: super;
+font-weight: normal;
+}
+
+
+input[type=submit] {
+	margin-top: 10px;
+ padding: 14px 15px;
+ background:#ff6364;
+ border:0px;
+ 	font-family: 'Tahoma';
+font-size: 16px;
+color: #FFF;
+display: block;
+    margin-left: 355px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	font-family: 'Tahoma';
+ background:#3e414a ;
+  border:0px;
+ padding: 14px 15px;
+}
+
+input[type=submit]:active {
+
+ background:#09b349 ; 
+ padding: 14px 15px;
+    border:0px;}
+
+.row_2_2_1 {
+	padding-left: 12px;
+	width: 228px;
+	height: 40px;
+ background:#3e414a;
+  border:0px;
+ display: inline-block;
+ color: #fff;
+     margin-right: 3px;
+       	font-family: 'Tahoma';
+font-size: 12px;
+
+   }
+
+.message {
+	padding-left: 12px;
+	padding-top: 12px;
+	width: 473px;
+	max-width: 473px;
+	height: 88px;
+	max-height: 88px;
+	background:#3e414a;
+ border:0px;
+ margin-top: 10px;
+  	font-family: 'Tahoma';
+font-size: 12px;
+color: #fff;
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px)  {
+
+
+@font-face
+{
+font-family: Casper_Bold;
+src: url('../font/Casper_Bold.ttf'),
+     url('../font/GESS/GESS.eot'); /* IE9 */
+} 
+
+
+body{
+	 overflow-x: hidden !important;
+    width: auto !important;
+}
+.Center{width: 100%;margin: auto;}
+
+.Header{
+	padding-bottom: 28px;
+	background: #09b349;
+	    width: 100%;
+ overflow-x: hidden !important;
+    width: auto !important;
+}
+
+.logo{
+	text-align: center;
+padding-top: 40px;
+
+}
+.logo img{
+	width: 92%;
+}
+
+.image_me  {
+	text-align: center;
+	margin-top: 27px;
+
+}
+
+.text_Ehab h1{
+	padding-left: 5%;
+	padding-right: 5%;
+font-family: Casper_Bold;
+text-align: center;
+font-size:  43px;
+color: #fff;
+margin-top: 60px;
+}
+
+.DOWN_ARROW{
+	text-align: center;
+	height: 75px;
+    display: block;
+}
+.DOWN_ARROW img{
+	text-align: center;
+	padding-top: 50px;
+	animation: DOWN_ARROW 0.5s linear 0.2s infinite alternate;
+	-webkit-animation: DOWN_ARROW 0.5s linear 0.2s infinite alternate;
+	display: block;
+    margin: auto;
+}
+@-webkit-keyframes DOWN_ARROW {
+    from {padding-top: 44px;}
+    to {padding-top: 50px;}
+}
+
+/* Standard syntax */
+@keyframes DOWN_ARROW {
+    from {padding-top: 44px;}
+    to {padding-top: 50px;}
+}
+
+.Abuot{
+	    width: 100%;
+	height: 285px;
+	background: #fff;
+	 overflow-x: hidden !important;
+    width: auto !important;
+}
+.Abuot .adress h1{
+	padding-left: 5%;
+	padding-right: 5%;
+font-family: Casper_Bold;
+text-align: center;
+font-size: 36px;
+color: #09b349;
+padding-top: 55px;
+}
+.Abuot .text p{
+	padding-left: 5%;
+	padding-right: 5%;
+font-family: 'Tahoma';
+text-align: center;
+font-size: 14px;
+color: #5a5a5a;
+margin-top: 38px;
+line-height: 22px;
+}
+.Expert_in {
+	    width: 100%;
+	padding-bottom: 45px;
+	background: #f1f8ff;
+	 overflow-x: hidden !important;
+    width: auto !important;
+}
+.Expert_in .Address h1{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: Casper_Bold;
+text-align: center;
+font-size: 36px;
+color: #09b349;
+padding-top: 55px;
+}
+
+.Expert_in .con{
+margin-top: 78px;
+}
+
+.Expert_in .con .col_3{
+	display: block;
+	margin-bottom: 45px;
+	text-align: center;
+}
+.Expert_in .con .col_3 h2{
+	padding-left: 5%;
+	padding-right: 5%;
+font-family: Casper_Bold;
+font-size: 18px;
+color: #09b349;
+padding-top: 20px;
+}
+.Expert_in .con .col_3 p{
+
+font-family: 'Tahoma';
+text-align: center;
+font-size: 12px;
+color: #5a5a5a;
+margin-top: 20px;
+line-height: 18px;
+padding-left: 5%;
+	padding-right: 5%;
+}
+.Latest_Works {
+	    width: 100%;
+background: #fff;
+    height: auto;
+    margin-bottom: 50px;
+     overflow-x: hidden !important;
+    width: auto !important;
+}
+.Latest_Works .address h2{
+	font-family: Casper_Bold;
+	text-align: center;
+font-size: 36px;
+color: #09b349;
+padding-top: 45px;
+}
+.Latest_Works .row_1{
+	margin-top: 10px;
+}
+.Latest_Works .row_1 .col_3{
+	display: block;
+	
+	text-align: center;
+
+}
+.Latest_Works .row_1 .col_3 a{
+	text-decoration: none;
+	overflow: hidden;
+	color: #09b349;
+}
+
+.Latest_Works .row_1 .col_3 h2{
+padding-left: 5%;
+	padding-right: 5%;
+padding-top: 20px;
+line-height: 28px;
+}
+.Latest_Works .row_1 .col_3 .select{
+	width: 90%;
+	text-align: center;
+	margin:auto;
+	padding-top: 18px;
+	padding-bottom: 18px;
+    background: #fff;
+    font-family: Casper_Bold;
+	cursor: pointer;
+    font-size: 22px;
+    color: #09b349;
+    padding-top: 20px;
+
+}
+.Latest_Works .row_1 .col_3 :hover{
+	color: #fff;
+background: #09b349;
+
+
+}
+
+
+.Contact_H {
+	    width: 100%;
+height: 750px;
+background: #474d5d;
+overflow-x: hidden !important;
+    width: auto !important;
+}
+.Contact_H .col_2{
+	padding-left: 5%;
+	padding-right: 5%;
+	
+	display: block;
+}
+
+.Contact_H .col_2 .Address h2{
+font-family: Casper_Bold;
+font-size: 26px;
+color: #FFF;
+padding-top: 70px;
+padding-bottom: 45px;
+
+
+}
+
+.Contact_H .con_cont .colm_2_1{
+
+	display: inline-block;
+}
+.Contact_H .con_cont .row_3_1{
+	padding-bottom: 12px;
+}
+.Contact_H .con_cont .row_3_1 h3{
+	font-family: 'Tahoma';
+font-size: 17px;
+color: #FFF;
+margin-left: 18px;
+vertical-align: super;
+font-weight: normal;
+}
+
+
+input[type=submit] {
+	margin:auto;
+	margin-top: 10px;
+ padding: 14px 15px;
+ background:#ff6364;
+ border:0px;
+ 	font-family: 'Tahoma';
+font-size: 16px;
+color: #FFF;
+display: block;
+
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	font-family: 'Tahoma';
+ background:#3e414a ;
+  border:0px;
+ padding: 14px 15px;
+}
+
+input[type=submit]:active {
+
+ background:#09b349 ; 
+ padding: 14px 15px;
+    border:0px;}
+
+.row_2_2_1 {
+	margin-top: 10px;
+	padding-left: 5%;
+	width: 95%;
+	height: 40px;
+ background:#3e414a;
+  border:0px;
+ display: block;
+ color: #fff;
+    
+       	font-family: 'Tahoma';
+font-size: 12px;
+
+   }
+
+.message {
+	padding-left: 5%;
+	padding-top: 12px;
+	width: 95%;
+	max-width: 95%;
+	min-width: 95%;
+	height: 88px;
+	max-height: 88px;
+	background:#3e414a;
+ border:0px;
+ margin-top: 10px;
+  	font-family: 'Tahoma';
+font-size: 12px;
+color: #fff;
+
+}
+
+
+}
+
+@media screen and (max-width:240px){
+
+.image_me img{
+width: 85%;
+}
+
+.Contact_H .col_2 .Address h2 {
+	font-size: 21px;
+}
+
+
+}
