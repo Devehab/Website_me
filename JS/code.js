@@ -74,7 +74,7 @@ $( function() {
 
         // assign a circle to each point
         for ( var i in points ) {
-            var c = new Circle( points[ i ], 2 + Math.random() * 2, 'rgba(255,255,255,0.3)' );
+            var c = new Circle( points[ i ], 2 + Math.random() * 2, 'rgba(255,255,255,0.6)' );
             points[ i ].circle = c;
         }
     }

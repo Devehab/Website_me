@@ -6,13 +6,15 @@ if($_GET)
 	$name =$_GET['name'];
 }
 ?>
+
 <!DOCTYPE html>
 <!-- Source CSS Website 24.2.2015 Developer Ehab Kahwati  -->
 
 <head>
 <title>Thanks <?php echo $name; ?> </title>
 <meta charset='UTF-8' />
-	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+			<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+		<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 	<link rel='icon' type='image/png' href='Image/favicon.png' />
         
 </head>

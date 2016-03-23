@@ -129,10 +129,10 @@ text-decoration: none;
     width:100%;
     max-width:100%;
     z-index: 0;
+    height: 620px;
         display: inline-block;
     vertical-align: baseline;
 }
-
 @font-face
 {
 font-family: Casper_Bold;
@@ -159,7 +159,6 @@ body{
 .Header{
 	height: 620px;
 	background: #09b349;
-	z-index: 55;
 }
 
 .logo{
@@ -329,7 +328,7 @@ height: 420px;
 background: #474d5d;
 }
 .Contact_H .col_2{
-	width: 490px;
+	width: 493px;
 	display: inline-table;
 }
 
@@ -402,8 +401,10 @@ font-size: 12px;
 	padding-top: 12px;
 	width: 473px;
 	max-width: 473px;
+	min-width: 473px;
 	height: 88px;
 	max-height: 88px;
+	min-height: 88px;
 	background:#3e414a;
  border:0px;
  margin-top: 10px;
@@ -428,7 +429,9 @@ color: #fff;
 
 
 @media screen and (max-width:960px)  {
-
+#spiders{
+	display: none;
+}
 
 @font-face
 {
@@ -721,6 +724,7 @@ font-size: 12px;
 	min-width: 95%;
 	height: 88px;
 	max-height: 88px;
+	min-height: 88px;
 	background:#3e414a;
  border:0px;
  margin-top: 10px;
