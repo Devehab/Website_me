@@ -49,12 +49,12 @@ $headers2 .= 'From: Developer Ehab Kahwati <info@devehab.com>' . "\r\n";
 
 // ارسال ايميلات
 
-$togmail  = 'pro2014learning@gmail.com'; // Send to Gmail
+$toEmail  = 'Your Email'; // Send to Gmail
 
 
 
  
-  mail($togmail , $subject1, "$mesthink",implode("\r\n", $headers));
+  mail($toEmail , $subject1, "$mesthink",implode("\r\n", $headers));
    mail($email , $subject2, "$data_info",$headers2);
   
   
