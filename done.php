@@ -1,6 +1,6 @@
 
 <?php
-// info Get ------------------
+//  Get Name
 if($_GET)
 {
 	$name =$_GET['name'];
