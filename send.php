@@ -19,7 +19,7 @@ $msg = $_POST['msg'];
 //--------------------------
 
 $subject1="Message - $name";
-$subject2="devehab.com";
+$subject2="subject name";
 
 $mesthink="
 <html>
