@@ -35,6 +35,7 @@ output, progress, section, summary, time, video {
 
 body {
 	line-height: 1;
+	-webkit-font-smoothing: antialiased;
 }
 
 article, aside, dialog, figure, footer, header, 
@@ -128,7 +129,7 @@ text-decoration: none;
 @font-face
 {
 font-family: Casper_Bold;
-src: url('../font/Casper_Bold.ttf'),
+src: url('../font/Casper_Bold.otf'),
      url('../font/GESS/GESS.eot'); /* IE9 */
 } 
 
@@ -344,12 +345,14 @@ padding-bottom: 45px;
 	padding-bottom: 12px;
 }
 .Contact_H .con_cont .row_3_1 h3{
-	font-family: 'Tahoma';
-font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 18px;
 color: #FFF;
 margin-left: 18px;
 vertical-align: super;
-font-weight: normal;
+
 }
 
 
@@ -358,16 +361,18 @@ input[type=submit] {
  padding: 14px 15px;
  background:#ff6364;
  border:0px;
- 	font-family: 'Tahoma';
-font-size: 16px;
+ 	  	font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 16px;
 color: #FFF;
 display: block;
-    margin-left: 355px;
+    margin-left: 342px;
     cursor: pointer;
 }
 
 input[type=submit]:hover {
-	font-family: 'Tahoma';
+	
  background:#3e414a ;
   border:0px;
  padding: 14px 15px;
@@ -388,9 +393,10 @@ input[type=submit]:active {
  display: inline-block;
  color: #fff;
      margin-right: 3px;
-       	font-family: 'Tahoma';
-font-size: 12px;
-
+       	    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-size: 14px;
    }
 
 .message {
@@ -405,8 +411,10 @@ font-size: 12px;
 	background:#3e414a;
  border:0px;
  margin-top: 10px;
-  	font-family: 'Tahoma';
-font-size: 12px;
+  	  	    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-size: 14px;
 color: #fff;
 
 }}
@@ -433,7 +441,7 @@ color: #fff;
 @font-face
 {
 font-family: Casper_Bold;
-src: url('../font/Casper_Bold.ttf'),
+src: url('../font/Casper_Bold.otf'),
      url('../font/GESS/GESS.eot'); /* IE9 */
 } 
 
@@ -670,12 +678,13 @@ padding-bottom: 45px;
 	padding-bottom: 12px;
 }
 .Contact_H .con_cont .row_3_1 h3{
-	font-family: 'Tahoma';
-font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 18px;
 color: #FFF;
 margin-left: 18px;
 vertical-align: super;
-font-weight: normal;
 }
 
 
@@ -685,8 +694,10 @@ input[type=submit] {
  padding: 14px 15px;
  background:#ff6364;
  border:0px;
- 	font-family: 'Tahoma';
-font-size: 16px;
+ 	font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 16px;
 color: #FFF;
 display: block;
 
@@ -716,8 +727,10 @@ input[type=submit]:active {
  display: block;
  color: #fff;
     
-       	font-family: 'Tahoma';
-font-size: 12px;
+       	    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-size: 14px;
 
    }
 
@@ -733,8 +746,10 @@ font-size: 12px;
 	background:#3e414a;
  border:0px;
  margin-top: 10px;
-  	font-family: 'Tahoma';
-font-size: 12px;
+  	    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-size: 14px;
 color: #fff;
 
 }
