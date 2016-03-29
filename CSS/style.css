@@ -30,7 +30,7 @@ output, progress, section, summary, time, video {
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
-	
+
 }
 
 body {
@@ -38,9 +38,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-article, aside, dialog, figure, footer, header, 
-hgroup, nav, section, blockquote { 
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section, blockquote {
 	display: block;
+
 }
 
 nav ul {
@@ -95,7 +96,7 @@ table {
 hr {
 	display: block;
 	height: 1px;
-	border: 0;	
+	border: 0;
 	border-top: 1px solid #ccc;
 	margin: 1em 0;
 	padding: 0;
@@ -107,7 +108,7 @@ input, select, a img {
 	vertical-align: middle;
 }
 a {
-text-decoration: none; 
+text-decoration: none;
 }
 
 
@@ -131,7 +132,7 @@ text-decoration: none;
 font-family: Casper_Bold;
 src: url('../font/Casper_Bold.otf'),
      url('../font/GESS/GESS.eot'); /* IE9 */
-} 
+}
 
 body{
 	transition:all 1s;
@@ -182,7 +183,7 @@ margin-top: 60px;
 }
 .DOWN_ARROW img {
 	cursor: pointer;
-	
+
 }
 @-webkit-keyframes DOWN_ARROW {
     from {margin-top: 44px;}
@@ -270,7 +271,7 @@ color: #09b349;
 padding-top: 45px;
 }
 .Latest_Works .row_1{
-	
+
 	margin-top: 10px;
 }
 #effect2{
@@ -322,7 +323,7 @@ background: #09b349;
 }
 
 .Contact_H {
-height: 420px;
+height: 460px;
 background: #474d5d;
 }
 .Contact_H .col_2{
@@ -354,8 +355,22 @@ margin-left: 18px;
 vertical-align: super;
 
 }
+.social_icon  ul {
+font-size: 18px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
 
-
+.social_icon  ul i{
+	font-size: 24px;
+	margin: 15px;
+	color: #fff;
+	
+}
+.social_icon  ul i:hover{
+	color: #FF6364;
+}
 input[type=submit] {
 	margin-top: 10px;
  padding: 14px 15px;
@@ -372,7 +387,7 @@ display: block;
 }
 
 input[type=submit]:hover {
-	
+
  background:#3e414a ;
   border:0px;
  padding: 14px 15px;
@@ -380,7 +395,7 @@ input[type=submit]:hover {
 
 input[type=submit]:active {
 
- background:#09b349 ; 
+ background:#09b349 ;
  padding: 14px 15px;
     border:0px;}
 
@@ -443,7 +458,7 @@ color: #fff;
 font-family: Casper_Bold;
 src: url('../font/Casper_Bold.otf'),
      url('../font/GESS/GESS.eot'); /* IE9 */
-} 
+}
 
 
 body{
@@ -608,7 +623,7 @@ padding-top: 45px;
 }
 .Latest_Works .row_1 .col_3{
 	display: block;
-	
+
 	text-align: center;
 
 }
@@ -648,15 +663,16 @@ background: #09b349;
 
 .Contact_H {
 	    width: 100%;
-height: 750px;
+height: 770px;
 background: #474d5d;
 overflow-x: hidden !important;
     width: auto !important;
+        overflow-y: hidden;
 }
 .Contact_H .col_2{
 	padding-left: 5%;
 	padding-right: 5%;
-	
+
 	display: block;
 }
 
@@ -687,7 +703,19 @@ margin-left: 18px;
 vertical-align: super;
 }
 
+.social_icon  ul {
+font-size: 18px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
 
+.social_icon  ul i{
+	font-size: 24px;
+	margin: 15px;
+	color: #fff;
+	
+}
 input[type=submit] {
 	margin:auto;
 	margin-top: 10px;
@@ -713,7 +741,7 @@ input[type=submit]:hover {
 
 input[type=submit]:active {
 
- background:#09b349 ; 
+ background:#09b349 ;
  padding: 14px 15px;
     border:0px;}
 
@@ -726,7 +754,7 @@ input[type=submit]:active {
   border:0px;
  display: block;
  color: #fff;
-    
+
        	    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 0.2px;
