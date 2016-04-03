@@ -407,6 +407,7 @@ color: #FFF;
 display: block;
     margin-left: 342px;
     cursor: pointer;
+    outline: none;
 }
 
 input[type=submit]:hover {
@@ -435,6 +436,7 @@ input[type=submit]:active {
     font-weight: 400;
     letter-spacing: 0.2px;
     font-size: 14px;
+    outline: none;
    }
 
 .message {
@@ -454,7 +456,7 @@ input[type=submit]:active {
     letter-spacing: 0.2px;
     font-size: 14px;
 color: #fff;
-
+outline: none;
 }}
 
 
@@ -774,7 +776,7 @@ input[type=submit] {
     font-size: 16px;
 color: #FFF;
 display: block;
-
+outline: none;
     cursor: pointer;
 }
 
@@ -805,7 +807,7 @@ input[type=submit]:active {
     font-weight: 400;
     letter-spacing: 0.2px;
     font-size: 14px;
-
+outline: none;
    }
 
 .message {
@@ -825,7 +827,7 @@ input[type=submit]:active {
     letter-spacing: 0.2px;
     font-size: 14px;
 color: #fff;
-
+outline: none;
 }
 
 
