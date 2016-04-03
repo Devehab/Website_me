@@ -152,7 +152,14 @@ body{
 
 .Header{
 	height: 620px;
-	background: #09b349;
+	background: rgba(122,179,75,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(122,179,75,1) 0%, rgba(9,179,73,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(122,179,75,1)), color-stop(100%, rgba(9,179,73,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(122,179,75,1) 0%, rgba(9,179,73,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(122,179,75,1) 0%, rgba(9,179,73,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(122,179,75,1) 0%, rgba(9,179,73,1) 100%);
+background: radial-gradient(ellipse at center, rgba(122,179,75,1) 0%, rgba(9,179,73,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ab34b', endColorstr='#09b349', GradientType=1 );
 }
 
 .logo{
@@ -485,7 +492,15 @@ body{
 
 .Header{
 	padding-bottom: 28px;
-	background: #09b349;
+	/*background: #09b349;*/
+background: rgba(117,173,72,1);
+background: -moz-linear-gradient(top, rgba(117,173,72,1) 0%, rgba(117,173,72,1) 25%, rgba(9,174,73,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117,173,72,1)), color-stop(25%, rgba(117,173,72,1)), color-stop(100%, rgba(9,174,73,1)));
+background: -webkit-linear-gradient(top, rgba(117,173,72,1) 0%, rgba(117,173,72,1) 25%, rgba(9,174,73,1) 100%);
+background: -o-linear-gradient(top, rgba(117,173,72,1) 0%, rgba(117,173,72,1) 25%, rgba(9,174,73,1) 100%);
+background: -ms-linear-gradient(top, rgba(117,173,72,1) 0%, rgba(117,173,72,1) 25%, rgba(9,174,73,1) 100%);
+background: linear-gradient(to bottom, rgba(117,173,72,1) 0%, rgba(117,173,72,1) 25%, rgba(9,174,73,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75ad48', endColorstr='#09ae49', GradientType=0 );
 	    width: 100%;
  overflow-x: hidden !important;
     width: auto !important;
