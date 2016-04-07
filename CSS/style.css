@@ -781,7 +781,6 @@ outline: none;
 }
 
 input[type=submit]:hover {
-	font-family: 'Tahoma';
  background:#3e414a ;
   border:0px;
  padding: 14px 15px;
