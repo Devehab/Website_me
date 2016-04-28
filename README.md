@@ -4,7 +4,7 @@
 
 <br>
 
-[Demo](http://www.devehab.com/)
+[Demo](http://project.devehab.com/QR/)
 
 <br><br>
 
