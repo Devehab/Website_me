@@ -19,7 +19,7 @@ $msg = $_POST['msg'];
 //--------------------------
 
 $subject1="Message - $name";
-$subject2="subject name";
+$subject2="devehab.com";
 
 $mesthink="
 <html>
@@ -49,12 +49,12 @@ $headers2 .= 'From: Developer Ehab Kahwati <info@devehab.com>' . "\r\n";
 
 // ارسال ايميلات
 
-$toEmail  = 'Your Email'; // Send to Gmail
+$togmail  = 'pro2014learning@gmail.com'; // Send to Gmail
 
 
 
  
-  mail($toEmail , $subject1, "$mesthink",implode("\r\n", $headers));
+  mail($togmail , $subject1, "$mesthink",implode("\r\n", $headers));
    mail($email , $subject2, "$data_info",$headers2);
   
   
